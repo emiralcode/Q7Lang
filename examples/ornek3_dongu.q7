@@ -1,0 +1,16 @@
+i = 1;;
+toplam = 0;;
+
+don_baba_don (i < 6) (((
+    toplam = toplam + i;;
+    i = i + 1;;
+)))
+
+bagir("1+2+3+4+5 = " + toplam);;
+
+geri = 3;;
+don_baba_don (geri > 0) (((
+    bagir(geri);;
+    geri = geri - 1;;
+)))
+bagir("Bitti!");;

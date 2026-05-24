@@ -1,0 +1,18 @@
+not = 75;;
+
+bence (not > 84) (((
+    bagir("Harf notu: AA");;
+))) yoksa (((
+    bence (not > 69) (((
+        bagir("Harf notu: BB");;
+    ))) yoksa (((
+        bagir("Harf notu: CC veya alti");;
+    )))
+)))
+
+gecerli = not > 49 [ve_de] not<!>0;;
+bence (gecerli) (((
+    bagir("Dersten gectin.");;
+))) yoksa (((
+    bagir("Dersten kaldin.");;
+)))

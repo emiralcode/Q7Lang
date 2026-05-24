@@ -1,0 +1,8 @@
+ad = "Dunya";;
+bagir("Merhaba," + ad);;
+
+a = 10;;
+b = 3;;
+bagir("Toplam : " + (a+b));;
+bagir("Carpim : " + (a*b));;
+bagir("Bolum : " + (a/b));;
